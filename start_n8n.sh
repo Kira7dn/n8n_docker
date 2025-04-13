@@ -17,6 +17,6 @@ echo "--------- 🔴 Finish creating folder -----------"
 echo "--------- 🟢 Start docker compose up  -----------"
 wget https://raw.githubusercontent.com/Kira7dn/n8n_docker/refs/heads/main/docker-compose.yaml -O compose.yaml
 echo "🟢 Starting n8n + ngrok..."
-docker compose up -d
+sudo docker compose up -d
 
 echo "✅ Done. Visit Ngrok web UI at: $NGROK_URL"

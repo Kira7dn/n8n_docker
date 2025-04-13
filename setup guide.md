@@ -4,4 +4,4 @@
 
 ```bash
 Server Ubuntu:
-- VPS Ubuntu Không GPU: curl -L https://bit.ly/start_n8n | sh
+- VPS Ubuntu Không GPU: curl -L https://bit.ly/start_n8n | bash
