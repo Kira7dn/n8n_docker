@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   n8n:
-    image: n8nio/n8n:latest
+    image: n8nio/n8n:next
     container_name: cont_n8n
     environment:
       - N8N_SECURE_COOKIE=false
